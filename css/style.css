@@ -2,7 +2,8 @@ body {
   overflow: hidden;
   text-align: center;
   padding-top: 12%;
-  background-color: #4f3e5e;
+  /*background-color: #4f3e5e;*/
+  background-color: rgb(41, 17, 120)
 }
 
 #cont{
@@ -12,6 +13,7 @@ body {
   max-width: 300px;
   margin: auto;
 }
+
 
 #img-up{
   width: auto;
