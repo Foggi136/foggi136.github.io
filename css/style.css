@@ -33,9 +33,16 @@ body {
   margin: auto;
   text-decoration: inherit;
 }
+#info{
+  color: rgb(45, 171, 30);
+  font-size: 35px;
+  margin: auto;
+  text-decoration: inherit;
+  padding-top: 20px
+}
 
 #iconlink{
-  padding-top:20px;
+  padding-top:100px;
   width: 300px;
   margin: auto;
 }
