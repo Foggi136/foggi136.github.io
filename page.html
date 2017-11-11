@@ -5,11 +5,44 @@
   <meta charset="utf-8">
   <meta name="theme-color" content="#ffffff">
   <title>Igor Krivol</title>
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style1.css" rel="stylesheet" />
 </head>
 
 <body>
-  <samp> Паша Гей</samp>
+  <svg viewBox="0 0 800 600">
+    <symbol id="s-text">
+      <text text-anchor="middle"
+            x="50%"
+            y="35%"
+            class="text--line"
+            >
+        I am
+      </text>
+      <text text-anchor="middle"
+            x="50%"
+            y="68%"
+            class="text--line2"
+            >
+        C E O
+      </text>
+
+    </symbol>
+
+    <g class="g-ants">
+      <use xlink:href="#s-text"
+        class="text-copy"></use>
+      <use xlink:href="#s-text"
+        class="text-copy"></use>
+      <use xlink:href="#s-text"
+        class="text-copy"></use>
+      <use xlink:href="#s-text"
+        class="text-copy"></use>
+      <use xlink:href="#s-text"
+        class="text-copy"></use>
+    </g>
+
+
+  </svg>
 </body>
 
 </html>
