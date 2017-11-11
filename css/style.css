@@ -1,5 +1,4 @@
 body {
-  overflow: hidden;
   text-align: center;
   padding-top: 12%;
   /*background-color: #4f3e5e;*/
@@ -27,6 +26,12 @@ body {
   color: rgb(45, 171, 30);
   font-size: 35px;
   margin: auto;
+}
+#ceo{
+  color: rgb(45, 171, 30);
+  font-size: 35px;
+  margin: auto;
+  text-decoration: inherit;
 }
 
 #iconlink{
